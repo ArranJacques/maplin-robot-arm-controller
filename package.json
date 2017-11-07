@@ -1,0 +1,11 @@
+{
+  "name": "maplin-robot-arm-controller",
+  "version": "1.0.0",
+  "description": "Node.js library for controlling the Maplin Robot Arm with your keyboard.",
+  "main": "index.js",
+  "author": "Pallant Digital <dev@pallant.digital>",
+  "license": "MIT",
+  "dependencies": {
+    "paplin": "^1.0.0"
+  }
+}
