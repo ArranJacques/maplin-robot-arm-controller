@@ -19,7 +19,7 @@ Tested on Node v8.1.1+. If you're running an earlier version you may need to upg
 Clone the repository:
 
 ```
-git clone https://github.com/pallant/maplin-robot-arm-controller.git
+git clone https://github.com/ArranJacques/maplin-robot-arm-controller.git
 ```
 
 From the package's root directory run `npm install`.
@@ -29,15 +29,15 @@ From the package's root directory run `npm install`.
 Plug the arm into a usb port and make sure it's turned on. Once plugged in, from the package's home, directory run:
 
 ```
-node index.js 
+node index.js
 ```
 
 The arm should connect and you should get the following response:
 
 ```
-$ node index.js 
+$ node index.js
 connecting to robot arm...
-connected! 
+connected!
 use your keyboard to control the arm
 see README.md for key mappings
 ```
@@ -69,14 +69,14 @@ Each press of a key will move the corresponding joint for a given number of mill
 
 ```
 node index.js --jmg=1000
-``` 
+```
 
 
 #### Grip Movement Granularity
 
 ```
 node index.js --gmg=1000
-``` 
+```
 
 ### USB Vendor ID
 
